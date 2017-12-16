@@ -1,0 +1,262 @@
+/* =========================== */
+/*      HOME      */
+/* =========================== */
+
+.image-fpo,
+.image-hero  {
+  background-image: url(../image/bg/---.png);
+  }
+
+.image-headshot-jd  {
+  background-image: url(../image/headshot-small.jpg);
+  }
+
+
+/* =========================== */
+/*      GLOBAL      */
+/* =========================== */
+
+.icon-scroll-chevron-text {
+/*  margin-top: 175px;*/
+  margin-left: 0px;
+}
+
+/* =========================== */
+/*      FONTS      */
+/* =========================== */
+
+
+// Halis Rounded
+
+@font-face {
+    font-family: 'halis_r_regularregular';
+    src: url('../font/HalisR-Regular-webfont.eot');
+    src: local("☺"),
+         url('../font/HalisR-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/HalisR-Regular-webfont.woff2') format('woff2'),
+         url('../font/HalisR-Regular-webfont.woff') format('woff'),
+         url('../font/HalisR-Regular-webfont.ttf') format('truetype'),
+         url('../font/HalisR-Regular-webfont.svg#halis_r_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.font-halis-rounded           { font-family: 'halis_r_regularregular', sans-serif; }
+
+
+// Festovo
+
+@font-face {
+    font-family: 'festivo_lcbasic';
+    src: url('../font/Festivo-LC-Basic-webfont.eot');
+    src: local("☺"),
+         url('../font/Festivo-LC-Basic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Festivo-LC-Basic-webfont.woff2') format('woff2'),
+         url('../font/Festivo-LC-Basic-webfont.woff') format('woff'),
+         url('../font/Festivo-LC-Basic-webfont.ttf') format('truetype'),
+         url('../font/Festivo-LC-Basic-webfont.svg#festivo_lcbasic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'festivo_lcoutline';
+    src: url('../font/Festivo-LC-Outline-webfont.eot');
+    src: local("☺"),
+         url('../font/Festivo-LC-Outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Festivo-LC-Outline-webfont.woff2') format('woff2'),
+         url('../font/Festivo-LC-Outline-webfont.woff') format('woff'),
+         url('../font/Festivo-LC-Outline-webfont.ttf') format('truetype'),
+         url('../font/Festivo-LC-Outline-webfont.svg#festivo_lcoutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.font-festivo-lowercase        { font-family: 'festivo_lcbasic', sans-serif; }
+.font-festivo-outline          { font-family: 'festivo_lcoutline', sans-serif; }
+
+
+
+/* =========================== */
+/*      LOGOS      */
+/* =========================== */
+
+.image-logo-plataforma-1  {
+  background-image: url(../image/logos/plataforma-1.svg);
+}
+
+.image-logo-plataforma-1-white  {
+  background-image: url(../image/logos/plataforma-1-white.svg);
+}
+
+.image-logo-plataforma-1-icon  {
+  background-image: url(../image/logos/plataforma-1-icon.svg);
+}
+
+.image-logo-plataforma-1-icon-2  {
+  background-image: url(../image/logos/plataforma-1-icon-2.svg);
+}
+
+.image-logo-plataforma-2  {
+  background-image: url(../image/logos/plataforma-2.svg);
+}
+
+.image-logo-plataforma-2-white  {
+  background-image: url(../image/logos/plataforma-2-white.svg);
+}
+
+.image-logo-plataforma-2-icon  {
+  background-image: url(../image/logos/plataforma-2-icon.svg);
+}
+
+.image-logo-plataforma-2-icon-alt  {
+  background-image: url(../image/logos/plataforma-2-icon-alt.svg);
+}
+
+.image-logo-plataforma-2-icon-2  {
+  background-image: url(../image/logos/plataforma-2-icon-2.svg);
+}
+
+.image-logo-plataforma-2-alt  {
+  background-image: url(../image/logos/plataforma-2-alt.svg);
+}
+
+.image-logo-plataforma-2-alt-2  {
+  background-image: url(../image/logos/plataforma-2-alt-2.svg);
+}
+
+.image-logo-plataforma-2-alt-white  {
+  background-image: url(../image/logos/plataforma-2-alt-white.svg);
+}
+
+.image-logo-plataforma-2-alt-white-2  {
+  background-image: url(../image/logos/plataforma-2-alt-white-2.svg);
+}
+
+
+/* =========================== */
+/*      PARTNERS      */
+/* =========================== */
+
+.image-logo-google-1  {
+  background-image: url(../image/google.png);
+}
+
+
+// Rote words for HumanIG logo
+
+.rotate-text-style {
+  display: block;
+  position: relative;
+  margin: 0;
+}
+
+.rotate-words {
+  display: inline-block;
+  padding-bottom: 1em;
+}
+
+.rotate-words span {
+  position: absolute;
+  opacity: 0;
+  transition: color 0.25s ease-in-out;
+  animation: rotateWord 12s ease infinite 0s;
+}
+.rotate-words span:nth-child(2) {
+  animation-delay: 2s;
+}
+.rotate-words span:nth-child(3) {
+  animation-delay: 4s;
+}
+.rotate-words span:nth-child(4) {
+  animation-delay: 6s;
+}
+.rotate-words span:nth-child(5) {
+  animation-delay: 8s;
+}
+.rotate-words span:nth-child(6) {
+  animation-delay: 10s;
+}
+
+@keyframes rotateWord {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0;
+    transform: translateY(-0.25rem);
+  }
+  5% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  17% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(0.25rem);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+/* =========================== */
+/*      GENERIC      */
+/* =========================== */
+
+
+.img-bg-contact-1  {
+  background-image: url(../image/contact/ian-schneider-66374.jpg);
+}
+
+.img-bg-contact-2  {
+  background-image: url(../image/contact/jeff-sheldon-3224.jpg);
+}
+
+.img-bg-contact-3  {
+  background-image: url(../image/contact/matt-jones-42954.jpg);
+}
+
+.img-bg-contact-4  {
+  background-image: url(../image/contact/bg2.jpg);
+}
+
+.brand-icon-001-inverse {
+  background-image: url(../image/linkedin-white.svg);
+}
+
+.brand-icon-002-inverse {
+  background-image: url(../image/twitter-white.svg);
+}
+
+.brand-icon-003-inverse {
+  background-image: url(../image/github-white.svg);
+}
+
+.brand-icon-004-inverse {
+  background-image: url(../image/facebook-white.svg);
+}
+
+/* =========================== */
+/*      PORTFOLIO      */
+/* =========================== */
+
+.image-portfolio-google-5 {
+  background-image: url(../image/portfolio/google-5.png);
+}
+
+
+
+
+
